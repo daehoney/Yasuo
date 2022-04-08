@@ -1,0 +1,42 @@
+
+body {
+    background-color: #000000;
+    color: white;
+}
+.ui-autocomplete {
+  max-height: 200px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+  /* add padding to account for vertical scrollbar */
+  padding-right: 20px;
+  margin:auto 0;
+} 
+.ui-autocomplete-input {
+  font-size: x-large;
+  height: 50px;
+  width: 300px;
+} 
+#datepicker {
+  font-size: x-large;
+  height: 50px;
+  width: 300px;
+} 
+
+button{ 
+  border-top-right-radius: 5px; 
+  border-bottom-right-radius: 5px; 
+  margin-left:-3px; 
+  border-top-left-radius: 5px; 
+  border-bottom-left-radius: 5px; 
+  margin-right:-4px;
+  color:white; 
+  background-color: gray;  
+  width: 300px;
+  padding : 10px;
+  font-size: xx-large;
+  border: 1px solid gray; 
+} 
+button:hover{ 
+  border: 1px solid gray; 
+}
